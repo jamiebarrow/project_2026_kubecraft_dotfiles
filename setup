@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Description: Link dotfiles to home directory
+JB_DOTFILES=~/repos/github.com/jamiebarrow/project_2026_kubecraft_dotfiles
 
 mkdir -p ~/.config
 
-ln -sf ~/dotfiles/.bashrc ~/.bashrc
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
+ln -sf $JB_DOTFILES/.bashrc ~/.bashrc
+ln -sf $JB_DOTFILES/.vimrc ~/.vimrc
+ln -sf $JB_DOTFILES/starship.toml ~/.config/starship.toml
 
 echo "Dotfiles linked!"

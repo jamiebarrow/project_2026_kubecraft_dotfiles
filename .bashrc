@@ -118,3 +118,6 @@ fi
 
 # Starship prompt customization
 eval "$(starship init bash)"
+
+# My Aliases
+alias gs='git status'

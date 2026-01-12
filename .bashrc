@@ -121,3 +121,4 @@ eval "$(starship init bash)"
 
 # My Aliases
 alias gs='git status'
+alias gf='git fetch'

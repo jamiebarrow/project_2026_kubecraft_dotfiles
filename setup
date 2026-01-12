@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Description: Link dotfiles to home directory
-JB_DOTFILES=~/repos/github.com/jamiebarrow/project_2026_kubecraft_dotfiles
+JB_DOTFILES=$(pwd)
 
 mkdir -p ~/.config
 

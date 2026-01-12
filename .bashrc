@@ -120,5 +120,9 @@ fi
 eval "$(starship init bash)"
 
 # My Aliases
+alias ..='cd ..'
+alias l='ls -al'
+alias dir='ls -al'
+alias cls='clear'
 alias gs='git status'
 alias gf='git fetch'

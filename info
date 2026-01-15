@@ -1,6 +1,5 @@
 #!/bin/bash
 
+printf "===$0 $*\n%s=%s\n%s=%s\n===\n" \$USER "${USER}" \$HOME "${HOME}"
 
-printf "===$0 $*\n%s=%s\n%s=%s\n===\n" '$USER' "$USER" '$HOME' "$HOME"
-
-echo "$HOME/dotfiles/ contains $(find -L ~/dotfiles -path '*/.git' -prune -o -type f -print | wc -l) files."
+echo "${HOME}/dotfiles/ contains $(find -L ~/dotfiles -path '*/.git' -prune -o -type f -print | wc -l) files."

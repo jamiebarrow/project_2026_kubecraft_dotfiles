@@ -1,0 +1,4 @@
+#!/bin/bash
+
+printf "%s=%s\n%s=%s\n===\n" '$USER' "$USER" '$HOME' "$HOME"
+echo "$HOME/dotfiles/ contains $(find -L "$HOME/dotfiles" -type f | wc -l) files."
